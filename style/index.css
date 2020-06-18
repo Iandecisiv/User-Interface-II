@@ -42,6 +42,9 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
 body {
     background-color: rgb(219, 219, 219);
 }
@@ -50,17 +53,51 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border: colo
 }
 
 .content_section .flexy_box {
-    width: 33.33333333333333333333333333%;
-    background-color: rgb(56, 56, 56);
+    width: 32.33333333333333333333333333%;
+    background-color: lightsteelblue;
     margin: auto;
+    border: solid lightgrey;
+    text-align: center;
+}
+
+
+.table_of_contents {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-bottom: solid lightgrey;
+    padding-bottom:2%;
 }
 
  a {
     border-radius: 12px;
-    border: 1px;
+    border: 2px;
+    background-color: rgb(56, 56, 56);
+    border-color: rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
+    text-align: center;
+    font-size: 16px;
+    padding: 9px;
+    margin: 4px 2px;
+    width: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(219, 219, 219);
+    border-color: rgb(56, 56, 56);
+    color: rgb(56, 56, 56);
+}
+
+.button_contact {
+    border-radius: 12px;
+    border: 2px;
     background-color: rgb(56, 56, 56);
     border-color: rgb(219, 219, 219);
     color: rgb(219, 219, 219);
@@ -73,7 +110,37 @@ body {
     text-decoration: none;
 }
 
-a:hover {
+.button_contact:hover {
     background-color: rgb(219, 219, 219);
+    border-color: rgb(56, 56, 56);
     color: rgb(56, 56, 56);
+    }
+
+.left_side {
+	width: 50%;
+	text-align:left;
+}
+.right_side {
+	width:50%;
+	text-align:right;
+}
+
+.introduction_splash {
+	text-align: center;
+	border: 5px;
+	border-style:outset;
+	padding: 20%;
+	margin: 3%;
+}
+
+h1 {
+	margin:3%;
+}
+
+img {
+	border-radius:50%;
+}
+
+.end_section {
+	text-align: center;
 }
